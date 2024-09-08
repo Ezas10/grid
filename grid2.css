@@ -1,0 +1,42 @@
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    font-size: 40px;
+    height: 500px;
+    
+    
+ 
+ }
+ .child{
+   
+    background-color:yellow;
+    /* height: 100px;
+    width: 100%; */
+ 
+ 
+ }
+ .one{
+    grid-column: 1/5;
+    grid-row: 1/5;
+ 
+ }
+ .two{
+    grid-row: 5/9;
+ }
+ .three{
+    grid-row: 5/6;
+ }
+ .four{
+    grid-row: 5/7;
+ }
+ .five{
+    grid-row: 5/8;
+ }
+ .six{
+    grid-row:6/9;
+
+ }
+ 
